@@ -1,0 +1,118 @@
+/* Offer Card */
+
+.offer-card {
+    margin: auto;
+    padding: 24px;
+
+    width: 100%;
+    max-width: 350px;
+
+    background-color: var(--neutral-blue-900);
+
+    border: 1px solid var(--neutral-blue-800);
+    border-radius: 15px;
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Card Header */
+
+.card-header {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card-header img {
+    width: 100%;
+}
+
+
+/* Card Body */
+
+.card-title {
+    margin-top: 24px;
+
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.card-desc {
+    margin-top: 16px;
+
+    color: var(--blue-500);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Offer Details */
+
+.offer-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 24px;
+}
+
+.offer-wrapper,
+.time-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.offer-wrapper img,
+.time-wrapper img {
+    width: 16px;
+    height: 16px;
+}
+
+.offer-wrapper p {
+    color: var(--cyan-400);
+    font-weight: 600;
+}
+
+.time-wrapper p {
+    color: var(--blue-500);
+}
+
+
+/* Card Footer */
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    margin-top: 24px;
+    padding-top: 16px;
+
+    border-top: 1px solid var(--neutral-blue-800);
+}
+
+.card-footer .avatar {
+    width: 32px;
+    height: 32px;
+
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.creator-info {
+    color: var(--blue-500);
+    font-size: 14px;
+}
+
+.creator-name {
+    color: var(--white);
+    cursor: pointer;
+}
+
+.creator-name:hover {
+    color: var(--cyan-400);
+}
