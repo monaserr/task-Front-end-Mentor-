@@ -1,0 +1,41 @@
+:root {
+    --blue-500: hsl(215, 51%, 70%);
+    --cyan-400: hsl(178, 100%, 50%);
+    --cyan-400-rgb: 0, 255, 247;
+    --neutral-blue-950: hwb(216 5% 83%);
+    --neutral-blue-900: hsl(216, 50%, ...);
+    --neutral-blue-800: hsl(215, 32%, ...);
+    --white: hsl(0, 0%, 100%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+
+    background-color: var(--neutral-blue-950);
+    color: var(--blue-500);
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 24px;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
